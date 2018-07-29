@@ -1,0 +1,8 @@
+{
+  "name": "ProyectoJSMovil",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "3bb2377b"
+}
