@@ -4,9 +4,12 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
 import { RegistroPage } from '../pages/registro/registro';
+import { AgregarLaserPage } from '../pages/agregar-laser/agregar-laser';
+import { HistorialPage } from '../pages/historial/historial';
+import {FacturacionPage } from '../pages/facturacion/facturacion';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,9 +18,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage,
     LoginPage,
-    RegistroPage
+    RegistroPage,
+    AgregarLaserPage,
+    HistorialPage,
+    FacturacionPage
   ],
   imports: [
     BrowserModule,
@@ -27,9 +32,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage,
     LoginPage,
-    RegistroPage
+    RegistroPage,
+    AgregarLaserPage,
+    HistorialPage,
+    FacturacionPage
   ],
   providers: [
     StatusBar,
